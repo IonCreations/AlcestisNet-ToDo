@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Alcestis Net ToDo</title>
+    <style>
+        :root {
+            --primary: #8C1A3B;
+            --primary-dark: #4D0F27;
+            --primary-light: #D73A64;
+            --accent: #FF0500;
+            --bg-light: #F8FAFC;
+            --text-main: #0F172A;
+            --text-muted: #475569;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+            background-color: var(--bg-light);
+        }
+        .container {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            border: 1px solid #E2E8F0;
+        }
+        h1 {
+            color: var(--primary-dark);
+            margin-bottom: 0.25rem;
+            font-size: 2.2rem;
+            font-weight: 800;
+        }
+        .app-name {
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        .last-updated {
+            font-size: 0.88rem;
+            color: #94A3B8;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #E2E8F0;
+            padding-bottom: 1rem;
+        }
+        h2 {
+            color: var(--primary);
+            margin-top: 1.8rem;
+            margin-bottom: 0.6rem;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+            font-size: 0.98rem;
+        }
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            color: var(--text-muted);
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        .highlight-box {
+            background: rgba(140, 26, 59, 0.05);
+            border-left: 4px solid var(--primary);
+            padding: 1.2rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #94A3B8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 1rem;">
+            <img src="ToDo-logo.png" alt="Alcestis Net ToDo Logo" style="width: 52px; height: 52px; border-radius: 12px; box-shadow: 0 4px 12px rgba(140, 26, 59, 0.35); object-fit: cover;">
+            <div>
+                <h1 style="margin: 0; font-size: 2rem;">Privacy Policy</h1>
+                <div class="app-name" style="margin: 0;">Alcestis Net - ToDo for Android</div>
+            </div>
+        </div>
+        <div class="last-updated">Effective Date: March 2026</div>
+
+        <div class="highlight-box">
+            <strong>Summary:</strong> Alcestis Net - ToDo is an offline-first task management app. Your tasks, notes, attachments, tags, and preferences stay on your local device. We do not collect, store on external servers, or sell your personal data.
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>Alcestis Net - ToDo does not require user account registration, login credentials, or remote cloud servers to operate. All data you enter into the application remains stored locally on your device:</p>
+        <ul>
+            <li><strong>Task Information:</strong> Titles, descriptions, due dates, folders, recurrence rules, and tags are stored locally using Android <code>SharedPreferences</code> and internal app storage.</li>
+            <li><strong>Attachments &amp; Shared Links:</strong> Web URLs and local file URIs attached to tasks remain stored locally on your device.</li>
+            <li><strong>App Settings:</strong> App preferences (such as language choice, completed task toggles, first day of week setting, and scroll behavior) are saved locally.</li>
+        </ul>
+
+        <h2>2. Use of Device Permissions</h2>
+        <p>The app requests minimal Android permissions solely to perform user-initiated actions:</p>
+        <ul>
+            <li><strong>Read External Storage / File Access:</strong> Used exclusively when you choose to attach local files or photos to a task, or when you export/import backup files.</li>
+            <li><strong>Share Intent Receiver (<code>ACTION_SEND</code>):</strong> Processes shared text, links, or files shared from external apps (e.g., Chrome, YouTube, Files) into ToDo tasks at your explicit request.</li>
+        </ul>
+
+        <h2>3. Google Play Billing</h2>
+        <p>In-app purchases for ToDo PRO (product ID: <code>todo_pro_unlock</code>) are processed securely by <strong>Google Play Billing</strong>. Payment details, credit card information, and billing processing are managed exclusively by Google Play. We do not store or process your financial or payment details.</p>
+
+        <h2>4. Data Sharing &amp; Third-Party Services</h2>
+        <p>We do not share, sell, or rent your personal information to third parties. The app does not integrate third-party advertising networks, analytics tracking SDKs, or external user profiling services.</p>
+
+        <h2>5. Backup Import &amp; Export</h2>
+        <p>You have full ownership of your data. The application provides local JSON backup export/import and text export options. Exported files are saved to locations selected by you on your local device.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Alcestis Net - ToDo complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal information from children under the age of 13.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions or suggestions regarding this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:support@alcestisnet.com" style="color: var(--primary);">support@alcestisnet.com</a></p>
+    </div>
+
+    <footer>
+        &copy; 2026 Alcestis Net. All rights reserved.
+    </footer>
+</body>
+</html>
